@@ -21,13 +21,16 @@ class Bred_PTSNE_NN:
 		self.layers_size_dict[layer_name] = cardinality
 
 	# function that prepares the neural network for training
-	def setup_structure():
+	def setup_structure(dim_input , dim_output):
 		pass
 
 	# function that trains the neural network on given data with given epochs
 	def train_neural_network(dataset , epochs):
 		pass
 
+	# function that reports out relevant information
+	def report_performance():
+		pass
 
 	# for testing
 	def print_structure(self):
